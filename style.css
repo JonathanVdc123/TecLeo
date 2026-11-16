@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background-color: #01030d;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.topo {
+    height: 680px;
+    background-image: url(img/Background.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.topo-texto {
+    width: 360px;
+    margin-left: 120px;
+    padding-top: 100px;
+}
+
+.topo-texto h1 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.combo {
+    width: 220px;
+    margin: 20px 0;
+}
+
+.botao-azul {
+    display: block;
+    background-color: #1f7aff;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.botao-borda {
+    display: block;
+    border: 1px solid #1f7aff;
+    color: #1f7aff;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.botao-pequeno {
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+.aviso {
+    font-size: 11px;
+    color: #aaaaaa;
+}
+
+.secao {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.imagem {
+    width: 480px;
+    vertical-align: middle;
+    /*esse vertical align faz com que a imagem fique do lado do texto*/
+    margin: 0 20px;
+}
+
+.texto {
+    display: inline-block;
+    width: 380px;
+    vertical-align: middle;
+    text-align: left;
+    margin: 0 20px;
+}
+
+.texto h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 22px;
+}
+
+.dispositivos {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.dispositivos h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.dispositivo {
+    display: inline-block;
+    width: 200px;
+    margin: 0 30px;
+}
+
+.dispositivo img {
+    width: 110px;
+}
+
+.dispositivo p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rodape {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.links a {
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+.copy {
+    font-size: 11px;
+    color: #aaaaaa;
+}
